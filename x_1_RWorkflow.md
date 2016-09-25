@@ -25,6 +25,7 @@ Please refer to this GitHub repository for updated versions of the R script.
 #<a name="method"></a>Example R script
 
 The two sequential example R scripts are provided. These are designed to be run sequentially:
+
 <a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotation-workflows/blob/master/x_ExampleR_1_Format%20and%20Check.data_160925.R">1. format and check species names and min and max lengths against a master list.</a>
 
 <a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotation-workflows/blob/master/x_ExampleR_2_CalcBiomass%20and%20Tidy%20data%20for%20analysis_160925.R">2. calculate biomass from lenght-weigth relationship and tidy data for analysis.</a>
