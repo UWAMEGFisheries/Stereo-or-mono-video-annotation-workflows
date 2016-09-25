@@ -43,9 +43,9 @@ An example of <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/mas
 
 The <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/x_Example_R_habitat.output.csv">output </a> and a simple plot of the habitat data expected from the R script is provided below.
 
-![alt text](https://cloud.githubusercontent.com/assets/14978794/18690494/f0370136-7fc0-11e6-9be5-6c746bef5483.png "Example plot of habitat data")
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18816109/d623e9e6-8374-11e6-81c7-c8ac6fc2241b.png "Example plot of length data")
 
-
+![alt text](https://cloud.githubusercontent.com/assets/14978794/18816121/1abbc88a-8375-11e6-8b43-b2857cef4bd4.png "Example plot of range data")
 
 
 <HR>
