@@ -40,7 +40,7 @@ To be updated.
 
 #<a name="r-example"></a>Example data and R scripts
 
-Also provided is an <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/x_1_RWorkflow.md"> R workflow example, including scripts, example data and outputs</a>. 
+Also provided is an <a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotation-workflows/blob/master/x_1_RWorkflow.md"> R workflow example, including scripts, example data and outputs</a>. 
 
 <HR>
 </HR>
