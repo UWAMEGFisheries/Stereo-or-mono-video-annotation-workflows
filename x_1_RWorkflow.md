@@ -15,7 +15,7 @@ Please refer to this GitHub repository for updated versions of the R script.
 
 [Example R script](#method)<br></br>
 [Example data](#transectmeasure-example)<br></br>
-[Example output data and plot](#output-example)<br></br>
+[Example output plot](#output-example)<br></br>
 [Folder structure](#introduction)<br></br>
 [Bibliography](#bibliography)
 
