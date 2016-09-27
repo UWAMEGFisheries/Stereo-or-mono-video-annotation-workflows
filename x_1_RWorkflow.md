@@ -2,7 +2,7 @@
 Example workflow using R to take standard MaxN and Length+3D point queries from EventMeasure from www.seagis.com.au.
 
 Six sequential scripts are provided:
-0. Format habitat annotation data from BRUV a href="https://github.com/TimLanglois/HabitatAnnotation">- see seperate Habitat Annotation repository for details</a>
+0. Format habitat annotation data from BRUV <a href="https://github.com/TimLanglois/HabitatAnnotation">- see separate Habitat Annotation repository for details</a>
 1. Format and check species names and min and max lengths against a master list.
 2. Calculate biomass from lenght-weigth relationship and tidy data for analysis.
 3. Combine data products for modeling and plotting
@@ -31,7 +31,6 @@ Please refer to this GitHub repository for updated versions of the R script.
 The six sequential example R scripts are provided. These are designed to be run sequentially:
 
 <a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotation-workflows/blob/master/x_ExampleR_0_HabitatAnnotation_Format.and.write.data_160919.R">0. Format habitat annotation data from BRUV </a>
-0. Format habitat annotation data from BRUV a href="https://github.com/TimLanglois/HabitatAnnotation">- see seperate Habitat Annotation repository for details</a>
 
 <a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotation-workflows/blob/master/x_ExampleR_1_Format%20and%20Check.data_160925.R">1. format and check species names and min and max lengths against a master list.</a>
 
