@@ -24,11 +24,11 @@ Please refer to this GitHub repository for updated versions of the R script.
 
 #<a name="method"></a>Example R script
 
-The two sequential example R scripts are provided. These are designed to be run sequentially:
+The six sequential example R scripts are provided. These are designed to be run sequentially:
 
 <a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotation-workflows/blob/master/x_ExampleR_1_Format%20and%20Check.data_160925.R">1. format and check species names and min and max lengths against a master list.</a>
 
-<a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotation-workflows/blob/master/x_ExampleR_2_CalcBiomass%20and%20Tidy%20data%20for%20analysis_160925.R">2. calculate biomass from lenght-weigth relationship and tidy data for analysis.</a>
+<a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotation-workflows/blob/master/x_ExampleR_2_CalcBiomass%20and%20Tidy%20data%20for%20analysis_160925.R">2. calculate biomass from length-weight relationship and tidy data for analysis.</a>
 
 
 The script uses Data Wrangling grammar from the tidyr<sup>2</sup> and dplyr<sup>3</sup> packages and data piplines. These packages shoulod be cited if you use the script.
