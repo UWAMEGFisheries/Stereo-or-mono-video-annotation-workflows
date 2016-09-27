@@ -1,11 +1,15 @@
 # R workflow 
 Example workflow using R to take standard MaxN and Length+3D point queries from EventMeasure from www.seagis.com.au.
 
-Two sequential scripts are provided:
-1. format and check species names and min and max lengths against a master list.
-2. calculate biomass from lenght-weigth relationship and tidy data for analysis
+Six sequential scripts are provided:
+0. Format habitat annotation data from BRUV a href="https://github.com/TimLanglois/HabitatAnnotation">- see seperate Habitat Annotation repository for details</a>
+1. Format and check species names and min and max lengths against a master list.
+2. Calculate biomass from lenght-weigth relationship and tidy data for analysis.
+3. Combine data products for modeling and plotting
+4. Format data for PRIMER
+x1. Generic plotting
 
-These R script are included in a published paper<sup>1</sup>, please cite if you use it.
+These R scripts are included in a published paper<sup>1</sup>, please cite if you use it.
 Please refer to this GitHub repository for updated versions of the R script.
 
 <HR>
@@ -26,12 +30,22 @@ Please refer to this GitHub repository for updated versions of the R script.
 
 The six sequential example R scripts are provided. These are designed to be run sequentially:
 
+<a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotation-workflows/blob/master/x_ExampleR_0_HabitatAnnotation_Format.and.write.data_160919.R">0. Format habitat annotation data from BRUV </a>
+0. Format habitat annotation data from BRUV a href="https://github.com/TimLanglois/HabitatAnnotation">- see seperate Habitat Annotation repository for details</a>
+
 <a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotation-workflows/blob/master/x_ExampleR_1_Format%20and%20Check.data_160925.R">1. format and check species names and min and max lengths against a master list.</a>
 
 <a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotation-workflows/blob/master/x_ExampleR_2_CalcBiomass%20and%20Tidy%20data%20for%20analysis_160925.R">2. calculate biomass from length-weight relationship and tidy data for analysis.</a>
 
+<a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotation-workflows/blob/master/x_ExampleR_3_CombineDataProducts%2BHabitat.and.summarise_160824.R">3. Combine data products for modeling and plotting.</a>
 
-The script uses Data Wrangling grammar from the tidyr<sup>2</sup> and dplyr<sup>3</sup> packages and data piplines. These packages shoulod be cited if you use the script.
+<a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotation-workflows/blob/master/x_ExampleR_4_Format.for.PRIMER.R">4. Format data for PRIMER.</a>
+
+<a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotation-workflows/blob/master/x_ExampleR_x1_generic.univariate.plotting_160927.R">x1. Generic plotting.</a>
+
+
+
+The scripts uses Data Wrangling grammar from the tidyr<sup>2</sup> and dplyr<sup>3</sup> packages and data piplines. These packages shoulod be cited if you use the script.
 For more information on the grammar of tidyr and dplyr see the <a href="https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">Data Wrangling cheat sheet</a>. 
 
 <HR>
@@ -46,7 +60,7 @@ An example <a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotati
 
 #<a name="output-example"></a>Example output data and plot
 
-The <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/x_Example_R_habitat.output.csv">output </a> and a simple plot of the habitat data expected from the R script is provided below.
+The simple plots of the data expected from the R script is provided below.
 
 ![alt text](https://cloud.githubusercontent.com/assets/14978794/18816109/d623e9e6-8374-11e6-81c7-c8ac6fc2241b.png "Example plot of length data")
 
