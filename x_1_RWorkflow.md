@@ -2,13 +2,13 @@
 Example workflow using R to take standard MaxN and Length+3D point queries from EventMeasure from www.seagis.com.au.
 
 Six sequential scripts are provided:
-0. Format habitat annotation data from BRUV <a href="https://github.com/TimLanglois/HabitatAnnotation">- see separate Habitat Annotation repository for details</a>
-1. Format and check species names and min and max lengths against a master list.
-2. Calculate biomass from lenght-weigth relationship and tidy data for analysis.
-3. Combine data products for modeling and plotting
-4. Format data for PRIMER
+0. Format habitat annotation data from BRUV <a href="https://github.com/TimLanglois/HabitatAnnotation">- see separate Habitat Annotation repository for details</a><br></br>
+1. Format and check species names and min and max lengths against a master list.<br></br>
+2. Calculate biomass from lenght-weigth relationship and tidy data for analysis.<br></br>
+3. Combine data products for modeling and plotting<br></br>
+4. Format data for PRIMER<br></br>
 x1. Generic plotting
-
+<br></br>
 These R scripts are included in a published paper<sup>1</sup>, please cite if you use it.
 Please refer to this GitHub repository for updated versions of the R script.
 
@@ -44,7 +44,7 @@ The six sequential example R scripts are provided. These are designed to be run 
 
 
 
-The scripts uses Data Wrangling grammar from the tidyr<sup>2</sup> and dplyr<sup>3</sup> packages and data piplines. These packages shoulod be cited if you use the script.
+The scripts uses Data Wrangling grammar from the tidyr<sup>2</sup> and dplyr<sup>3</sup> packages and data piplines. These packages shoulod be cited if you use the script.<br></br>
 For more information on the grammar of tidyr and dplyr see the <a href="https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">Data Wrangling cheat sheet</a>. 
 
 <HR>
@@ -73,21 +73,23 @@ The simple plots of the data expected from the R script is provided below.
 
 #<a name="introduction"></a>How to organise your workflow and recommended folder structure
 
-How to organise your workflow and in particular your "Scripts" folder.
+How to organise your workflow and in particular your "Scripts" folder:<br></br>
 
-**Students of mine - PLEASE FOLLOW THESE STEPS and FOLDER STRUCUTRE SO IT IS EASIER FOR ME TO READ YOUR SCRIPTS***
+**Students of mine - PLEASE FOLLOW THESE STEPS and FOLDER STRUCUTRE SO IT IS EASIER FOR ME TO READ YOUR SCRIPTS**<br></br>
 
-1. Use a standardised way of naming your scripts. 
+<b>1. Use a standardised way of naming your scripts.</b>
 You will see the in Example Scripts folder below - I have used the following naming format:
-"ProjectName"_"Order in which scripts should be run"_"Description of script"_"Date (as YYMMDD)"
+ProjectName_Number: indicating Order in which scripts should be run_Description of script_Date (as YYMMDD)"<br></br>
 
-2. Whenever you make a change to a script - change the Date and put the old version in the Archive folder
+<b>2. Whenever you make a change to a script - change the Date and put the old version in the Archive folder</b>
 You will see there is an Archive fodler in the Scripts folder.
-R scripts are very small in size (KB) so you can keep hundreds in the archive without worrying about space.
-This is a really useful thing to do if something unexpected occurs with your data - so that you can re-visit old script to work out if/when something changed in your data.
 
-3. Sort your script folder
-The nice thing about using the standardiesed way of naming the scripts in the Scripts folder is that you will be able to "Sort by Name" and the scripts will be in the order they need to be run!
+R scripts are very small in size (KB) so you can keep hundreds in the archive without worrying about space.
+
+This is a really useful thing to do if something unexpected occurs with your data - so that you can re-visit old script to work out if/when something changed in your data.<br></br>
+
+<b>3. Sort your script folder</b>
+The nice thing about using the standardiesed way of naming the scripts in the Scripts folder is that you will be able to "Sort by Name" and the scripts will be in the order they need to be run!<br></br>
 
 
 ![alt text](https://cloud.githubusercontent.com/assets/14978794/18865062/e2d94c96-84cb-11e6-8e55-c91f759c2880.png "Example folder structure")
