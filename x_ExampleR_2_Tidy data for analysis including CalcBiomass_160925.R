@@ -56,7 +56,7 @@ length.factors<-read.csv("x_Example_BRUV.length.factors..csv")
 length<-read.csv("x_Example_BRUV.length..csv")
 
 
-# MAKE mass data from Length data----
+# Import length-weight relationships from Life_history----
 gs_ls()
 Life_history <- gs_title("Life_history")#register a sheet
 master<-Life_history%>%
