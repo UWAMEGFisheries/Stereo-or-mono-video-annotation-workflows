@@ -20,7 +20,7 @@ Please refer to this GitHub repository for updated versions of the R script.
 [Example R script](#method)<br></br>
 [Example data](#transectmeasure-example)<br></br>
 [Example output plot](#output-example)<br></br>
-[Folder structure](#introduction)<br></br>
+[How to organise your workflow and recommended folder structure](#introduction)<br></br>
 [Bibliography](#bibliography)
 
 <HR>
@@ -71,9 +71,24 @@ The simple plots of the data expected from the R script is provided below.
 <HR>
 </HR>
 
-#<a name="introduction"></a>Folder structure
+#<a name="introduction"></a>How to organise your workflow and recommended folder structure
 
-The above script assumes that you have a folder strucutre following this format:
+How to organise your workflow and in particular your "Scripts" folder.
+
+**Students of mine - PLEASE FOLLOW THESE STEPS and FOLDER STRUCUTRE SO IT IS EASIER FOR ME TO READ YOUR SCRIPTS***
+
+1. Use a standardised way of naming your scripts. 
+You will see the in Example Scripts folder below - I have used the following naming format:
+"ProjectName"_"Order in which scripts should be run"_"Description of script"_"Date (as YYMMDD)"
+
+2. Whenever you make a change to a script - change the Date and put the old version in the Archive folder
+You will see there is an Archive fodler in the Scripts folder.
+R scripts are very small in size (KB) so you can keep hundreds in the archive without worrying about space.
+This is a really useful thing to do if something unexpected occurs with your data - so that you can re-visit old script to work out if/when something changed in your data.
+
+3. Sort your script folder
+The nice thing about using the standardiesed way of naming the scripts in the Scripts folder is that you will be able to "Sort by Name" and the scripts will be in the order they need to be run!
+
 
 ![alt text](https://cloud.githubusercontent.com/assets/14978794/18865062/e2d94c96-84cb-11e6-8e55-c91f759c2880.png "Example folder structure")
 
