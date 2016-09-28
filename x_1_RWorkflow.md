@@ -78,10 +78,12 @@ How to organise your workflow and in particular your "Scripts" folder:<br></br>
 **Students of mine - PLEASE FOLLOW THESE STEPS and FOLDER STRUCUTRE SO IT IS EASIER FOR ME TO READ YOUR SCRIPTS**<br></br>
 
 <b>1. Use a standardised way of naming your scripts.</b>
+
 You will see the in Example Scripts folder below - I have used the following naming format:
 ProjectName_Number: indicating Order in which scripts should be run_Description of script_Date (as YYMMDD)"<br></br>
 
 <b>2. Whenever you make a change to a script - change the Date and put the old version in the Archive folder</b>
+
 You will see there is an Archive fodler in the Scripts folder.
 
 R scripts are very small in size (KB) so you can keep hundreds in the archive without worrying about space.
@@ -89,6 +91,7 @@ R scripts are very small in size (KB) so you can keep hundreds in the archive wi
 This is a really useful thing to do if something unexpected occurs with your data - so that you can re-visit old script to work out if/when something changed in your data.<br></br>
 
 <b>3. Sort your script folder</b>
+
 The nice thing about using the standardiesed way of naming the scripts in the Scripts folder is that you will be able to "Sort by Name" and the scripts will be in the order they need to be run!<br></br>
 
 
