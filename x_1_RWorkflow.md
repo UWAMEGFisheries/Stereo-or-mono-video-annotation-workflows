@@ -34,7 +34,7 @@ The six sequential example R scripts are provided. These are designed to be run 
 
 <a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotation-workflows/blob/master/x_ExampleR_1_Format%20and%20Check.data_160925.R">1. format and check species names and min and max lengths against a master list.</a>
 
-<a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotation-workflows/blob/master/x_ExampleR_2_CalcBiomass%20and%20Tidy%20data%20for%20analysis_160925.R">2. calculate biomass from length-weight relationship and tidy data for analysis.</a>
+<a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotation-workflows/blob/master/x_ExampleR_2_Tidy%20data%20for%20analysis%20including%20CalcBiomass_160925.R">2. tidy data for analysis and  - if you need to - calculate biomass from length-weight relationships.</a>
 
 <a href="https://github.com/TimLanglois/Stereo-or-mono-video-annotation-workflows/blob/master/x_ExampleR_3_CombineDataProducts%2BHabitat.and.summarise_160824.R">3. Combine data products for modeling and plotting.</a>
 
