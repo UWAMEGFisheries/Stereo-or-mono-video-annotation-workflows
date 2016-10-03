@@ -182,7 +182,13 @@ Life_history <- gs_title("Life_history")#register a sheet
 master<-Life_history%>%
   gs_read_csv(ws = "Life_history")%>%
   filter(grepl('Australia', Global.region))%>%
-  filter(grepl('Ningaloo|Pilbara', Local.region))
+  filter(grepl('Ningaloo|Pilbara', Local.region))%>%
+  mutate(aLL=as.numeric(aLL))%>%
+  mutate(bLL=as.numeric(bLL))%>%
+  mutate(a=as.numeric(a))%>%
+  mutate(b=as.numeric(b))%>%
+  mutate(a=as.numeric(Min_length))%>%
+  mutate(b=as.numeric(Max_length))
 head(master,7)
 str(master)
 names(master)
