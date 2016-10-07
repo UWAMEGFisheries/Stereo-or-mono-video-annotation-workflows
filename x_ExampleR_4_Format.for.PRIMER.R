@@ -5,7 +5,7 @@
 ### Please forward any updates and improvements to timothy.langlois@uwa.edu.au
 
 # The following code forms an appendix to the manuscript:
-#  "McLean et al. 2016. Distribution, Abundance, Diversity and Habitat Associations of Fishes across a Bioregion Experiencing Rapid Coastal Development.” Estuarine, Coastal and Shelf Science 178 (September): 36–47"
+#  "McLean et al. 2016. Distribution, Abundance, Diversity and Habitat Associations of Fishes across a Bioregion Experiencing Rapid Coastal Development.â Estuarine, Coastal and Shelf Science 178 (September): 36â47"
 # Please cite it if you like it
 
 
@@ -38,8 +38,8 @@ rm(list=ls())
 study<-"x_Example_BRUV"
 
 # Add you work dir here-
-# work.dir=("C:/Tims Documents/ownCloud/GitHub_Example")
-work.dir=("~/ownCloud/GitHub_Example")
+work.dir=("C:/Tims Documents/ownCloud/GitHub_Example")
+# work.dir=("~/ownCloud/GitHub_Example")
 
 
 tidy.data=paste(work.dir,"Data/Tidy data",sep="/")
@@ -81,6 +81,13 @@ primer.species.factors.habitat<-read.csv("x_Example_BRUV_combined.factors.habita
   append_col(., list(blank=NA), after="Total")
 head(primer.species.factors.habitat)
 
+primer.habitat<-read.csv("x_Example_BRUV_combined.factors.habitat.csv")%>%
+  select(-Taxa,-Value,-Group,-Measure)%>%
+  distinct()%>%
+  select(-c(CampaignID,Location,Status,Site,Method), everything())%>%
+  append_col(., list(blank=NA), after="broad.Reef")
+head(primer.habitat)
+names(primer.habitat)
 
 # Bring in the Indicators - Family/Feeding to put below the data----
 gs_ls()
@@ -132,5 +139,8 @@ primer <- rename(primer, replace =c("blank"="") )
 head(primer)
 write.csv(primer,file=paste(study,"PRIMER.csv",sep = "_"), row.names=FALSE)
 
+primer.habitat <- rename(primer.habitat, replace =c("blank"="") )
+head(primer.habitat)
+write.csv(primer.habitat,file=paste(study,"PRIMER.Habitat.csv",sep = "_"), row.names=FALSE)
 
 
