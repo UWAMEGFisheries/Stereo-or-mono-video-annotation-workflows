@@ -79,6 +79,18 @@ ggplot.spatial
 ggsave(ggplot.spatial,file=paste(Sys.Date(),study,"ggplot.spatial.png",sep = "_"), width = 25, height = 14,units = "cm")
 
 
+# box plot to plot anything----
+ggplot.box<-ggplot(data=filter(combined,Group=="Species"&Taxa%in%c("Total","Rich")),aes(mean.relief,Value),alpha=0.75)+
+  geom_boxplot(outlier.colour = NA, notch=FALSE, width=0.8)+
+  geom_point(position = position_jitter(width = 0.1, h = 0),alpha = 1/4, size=4)+
+  stat_summary(fun.y=mean, geom="point", shape=2, size=4)
+  # Apperance
+  Theme1+
+  facet_grid(Measure~Taxa,scales = "free")
+ggplot.box
+ggsave(ggplot.box,file=paste(Sys.Date(),study,"ggplot.box.png",sep = "_"), width = 25, height = 14,units = "cm")
+
+
 # regression plot to plot anything----
 ggplot.regression<-ggplot(data=filter(combined,Group=="Species"&Taxa%in%c("Total","Rich")),aes(mean.relief,Value),alpha=0.75)+
   geom_point()+
